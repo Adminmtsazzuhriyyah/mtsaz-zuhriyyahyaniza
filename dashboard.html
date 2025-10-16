@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin - MTS AZ-ZUHRIYYAH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard Admin</h1>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <section>
+    <h2>Tambah Berita</h2>
+    <input type="text" id="judul-berita" placeholder="Judul Berita">
+    <textarea id="isi-berita" placeholder="Isi berita..."></textarea>
+    <button onclick="tambahBerita()">Tambah Berita</button>
+  </section>
+
+  <section>
+    <h2>Tambah Materi</h2>
+    <input type="text" id="judul-materi" placeholder="Judul Materi">
+    <input type="text" id="link-materi" placeholder="Link (contoh: Google Drive, PDF, dsb)">
+    <button onclick="tambahMateri()">Tambah Materi</button>
+  </section>
+
+  <footer>
+    <p>© 2025 MTS AZ-ZUHRIYYAH</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
